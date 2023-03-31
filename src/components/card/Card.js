@@ -8,7 +8,7 @@ function Card({ tag, img, title, desc, singleCost, doublesCost }) {
 					{tag}
 				</p>
 			)}
-			<img src={img} alt='vector' />
+			<img src={img} alt='vector' className='w-10 h-10' />
 			<h3 className='text-[#8CC679] italic pb-1'>{title}</h3>
 			<div className='bg-[#EEEEEE] shadow-[0px_-3px_5px_0px_#00000024] rounded-lg px-3 py-2 space-y-3'>
 				<p className='text-xs px-3'>{desc}</p>

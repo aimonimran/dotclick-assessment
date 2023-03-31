@@ -6,7 +6,7 @@
 
 @layer base {
 	.detail {
-		@apply border-b md:border-b-0 pb-4 md:pb-0 md:border-r border-gray-300 pr-6;
+		@apply border-b-[1.5px] md:border-b-0 pb-4 md:pb-0 md:border-r-[1.5px] border-gray-300 pr-6;
 	}
 	.detail-title {
 		@apply text-lg font-bold text-[#72AA83];

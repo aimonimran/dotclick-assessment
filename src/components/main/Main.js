@@ -7,20 +7,20 @@ import Card from '../card/Card';
 
 function Main() {
 	return (
-		<div className='flex-grow bg-[#D9D9D9] pb-11 lg:pb-8 px-6 md:pl-16 md:pr-6'>
-			<div className='space-y-4 pt-6'>
+		<div className='flex-grow bg-[#D9D9D9] pt-6 pb-24 px-6 md:pl-20 md:pr-6'>
+			<div className='space-y-6 pt-6'>
 				<h2 className='font-bold text-[#72AA83] tracking-wider font-poppins'>
 					You currently have 3 requests
 				</h2>
-				<div className='flex space-x-6'>
-					<div className='flex-grow space-y-4'>
-						<div className='bg-white p-5 space-y-3 rounded-sm shadow-[0px_3px_5px_0px_#00000024]'>
+				<div className='flex space-x-7'>
+					<div className='flex-grow space-y-10'>
+						<div className='bg-white px-5 py-8 space-y-6 rounded-sm shadow-[0px_3px_5px_0px_#00000024]'>
 							<Details />
 							<Status status='in-process' />
 						</div>
 
-						<div className='bg-white p-5 space-y-5 rounded-3xl shadow-[0px_3px_5px_0px_#00000024]'>
-							<div className='w-full md:w-max space-y-3'>
+						<div className='bg-white px-8 py-8 space-y-5 md:space-y-12 rounded-3xl shadow-[0px_3px_5px_0px_#00000024]'>
+							<div className='w-full md:w-max space-y-6'>
 								<Details />
 								<Status status='completed' />
 							</div>
@@ -52,7 +52,7 @@ function Main() {
 						</div>
 					</div>
 					<div className='hidden md:inline-flex items-end'>
-						<ChatBubbleLeftRightIcon className='w-20 h-20 cursor-pointer z-50 mb-[-8px] bg-[#44A16F] rounded-full p-4 text-white' />
+						<ChatBubbleLeftRightIcon className='w-24 h-24 cursor-pointer z-50 mb-[-18px] bg-[#44A16F] rounded-full p-4 text-white' />
 					</div>
 				</div>
 			</div>
