@@ -1,13 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+@layer base {
+	.detail {
+		@apply border-b md:border-b-0 pb-4 md:pb-0 md:border-r border-gray-300 pr-6;
+	}
+	.detail-title {
+		@apply text-lg font-bold text-[#72AA83];
+	}
+	.detail-desc {
+		@apply text-xs text-gray-400 font-semibold;
+	}
+	.status {
+		@apply flex border-[1.5px] border-gray-300 rounded-3xl overflow-hidden;
+	}
+}
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
