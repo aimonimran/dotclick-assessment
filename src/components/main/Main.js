@@ -1,9 +1,9 @@
 import React from 'react';
-import Details from './Details';
-import Card from './Card';
-import Status from './Status';
+import Details from '../details/Details';
+import Status from '../status/Status';
 import { ChatBubbleLeftRightIcon } from '@heroicons/react/24/solid';
-import { vector1 } from '../assets';
+import { vector1 } from '../../assets';
+import Card from '../card/Card';
 
 function Main() {
 	return (
